@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.titlemenu{
+    display: flex;
+     justify-content: space-between; 
+     width: 90%;
+      margin: 40px 0 0 50px; 
+      position: absolute; 
+      top: 0;
+      color: burlywood
+      
+    }
+    
+
+.myimg img{ 
+    position: relative; 
+    width: 100%; 
+    min-height: 500px;
+}
+
+.menu{
+    margin-top: 10px;  
+    padding: 10px; 
+    height: 7px;
+    margin-left: 100px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    transition: 0.25s ease;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 600px;
+}
+ul li{
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+}
+
+ul:hover a{ 
+    color: burlywood;
+}
+
+ul:hover a:hover{
+    color: black;
+    box-shadow: 0 2px 0 0 currentColor;
+
+}
+ .title{
+    color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+}
+
+ .about{
+  width: 300px;
+  border: 8px solid burlywood;
+  padding: 30px;
+  margin-right: 1000px;
+  margin-top: 300px;
+  
+ }
+ .imgtxt{
+    display: flex;
+ }
+ .z{
+    text-align: center;
+    margin-top: 100px;
+ }
+.second{
+    display: flex;
+    margin-top: 50px;
+}
+.zz{
+    text-align: center;
+    margin-top: 250px;
+}
+.third{
+    display: flex;
+}
+.zzz{
+    text-align: center;
+    margin-top: 100px;
+}
+.text{
+    text-align: center;
+    margin-top: 40px;
+}
+ 
+.main_box {
+    width: 90%;
+    height: 80vh;
+    display: flex;
+   
+}
+ 
+.img {
+    flex: 1;
+    height: 100%;
+    transform: skew(10deg);
+    cursor: pointer;
+    margin: 0 0.120em;
+    transition: all .3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid pink;
+    position: relative;
+    margin-left: 100px;
+}
+ 
+p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: .75em;
+    background-color: rgba(0, 0, 0, 0.6);
+    transform: rotate(-90deg);
+    transform-origin: 0% 0%;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+ 
+.main_box:hover .img {
+    transform: skew(0);
+}
+ 
+.img:hover {
+    flex: 5;
+}
+ 
+.img:hover p {
+    background-color: transparent;
+    border: .125em solid blue;
+    color: rgb(255, 38, 0);
+    transform: rotate(0deg);
+}
+.fourth{
+    display: flex;
+}
+.zzzz{
+    text-align: center;
+    margin-top: 100px;
+}
+.icon {
+    text-align: center;
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-around;
+}
+.txtt{
+    text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.images1{
+    display: flex;
+    justify-content: space-evenly;
+   margin-top: 10px;
+}
+.finally{
+ background-color: burlywood;
+    width: 80%;
+    height: 300px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 25px;
+}
+
+.contact{
+    width: 80%;
+    height: 300px;
+    background-color: burlywood;
+    text-align: center;
+    margin-left: 100px;
+}
+.icon{
+   font-size: 70px;
+}
+.contact h1{
+    font-size: 40px;
+}
+.contact h2{
+    font-size: 20px;
+}
